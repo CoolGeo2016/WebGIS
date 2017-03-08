@@ -1,0 +1,30 @@
+{
+  "name": "webgis",
+  "version": "1.0.0",
+  "description": "Simple webgis application",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoolGeo2016/WebGIS.git"
+  },
+  "keywords": [
+    "webgis"
+  ],
+  "author": "coolgeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoolGeo2016/WebGIS/issues"
+  },
+  "homepage": "https://github.com/CoolGeo2016/WebGIS#readme"
+}
