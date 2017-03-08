@@ -15,5 +15,6 @@ $ webpack entry.js bundle.js --module-bind 'css=style-loader!css-loader'
 $ npm install webpack-dev-server -g
 
 $ webpack-dev-server --progress --colors
+//--display-error-details 来打印错误详情
 
-我们还可以通过参数 --display-error-details 来打印错误详情
+$ npm install --save-dev babel-core babel-loader babel-preset-es2015
