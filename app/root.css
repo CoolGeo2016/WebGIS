@@ -3,3 +3,65 @@
     background-color: #ddd;
     border-radius: 5px;
 }
+
+:global(#mapdemo){
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    top: 0px;  
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #eee;
+}
+
+.apptitle{
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute;
+}
+
+.titleinfo{
+    width: 60%;
+    height: 100%;    
+    text-align: center;
+    line-height: 100px;
+    background-color: lightcyan;
+}
+
+.maptype{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.mtoption{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.appcontent{
+    position: absolute;
+    top: 100px;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightpink;
+}
+
+:global(#appmap){
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+
+.layerlist{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: lightgrey
+}

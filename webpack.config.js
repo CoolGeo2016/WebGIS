@@ -28,7 +28,7 @@ module.exports = {
     ],
     devServer: {
         port:8080,
-        contentBase: "./public",//本地服务器所加载的页面所在的目录
+        contentBase: "./build",//本地服务器所加载的页面所在的目录
         historyApiFallback: true,//不跳转
         inline: true//实时刷新
     } 
