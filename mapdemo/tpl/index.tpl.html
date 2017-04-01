@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.draw.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/leaflet/leaflet-src.js"></script>
+    <script src="lib/leaflet/esri-leaflet.js"></script>
+    <script src="lib/leaflet.ChineseTmsProviders.js"></script>
+    <script src="lib/leaflet/leaflet.draw.js"></script>
+    <script src="lib/leaflet/zh_cn.js"></script>
+    <script src="plugins/leaflet.loc.js"></script>
+</head>
+
+<body>
+    <!--标题栏-->
+    <div class="apptitle">
+        <span class="titleinfo">数字征地拆迁项目展示</span>
+        <!--底图切换-->
+        <div class="maptype">
+            <span class="broption sanwei">倾斜三维</span>
+            <span class="broption yingxiang">正射影像</span>
+            <span class="broption fenjiexian">分户界线</span>
+        </div>
+    </div>
+    <div class="map-content row">
+    <div id="baselayers" class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span id="bl-text">天地图矢量</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#" id="TianDiTuVec">天地图矢量</a></li>
+                <li><a href="#" id="TianDiTuSat">天地图影像</a></li>
+                <li><a href="#" id="GaodeVec">高德地图</a></li>
+                <li><a href="#" id="GaodeSat">高德影像</a></li>
+                <li><a href="#" id="chinacolor">ArcGIS彩色</a></li>
+                <li><a href="#" id="chinagray">ArcGIS灰色</a></li>
+            </ul>
+        </div>
+        <div id="brmap" class="map-panel col-xs-9 col-md-10">            
+        </div>
+        <div id="br-layerlist" class="layer-list col-xs-3 col-md-2">
+            <div class="listtitle">专题图层</div>
+            <ul class="list-group">
+                <li class="list-group-item" name="tdlygh">土地利用规划 </li>
+                <li class="list-group-item" name="tdlyxz">土地利用现状 </li>
+                <li class="list-group-item" name="dj">地价 </li>
+                <li class="list-group-item" name="qs">权属 </li>
+                <li class="list-group-item" name="kg">控规 </li>
+            </ul>
+        </div>
+        <div class="br-banner">
+            泊锐科技
+        </div>        
+    </div>
+</body>
+
+</html>

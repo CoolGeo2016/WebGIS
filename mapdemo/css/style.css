@@ -1,0 +1,101 @@
+.br-right{
+    float: right;
+}
+
+
+.apptitle{    
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top,#016096 0%,#009EFF 100%);
+    position: absolute;
+    z-index: 7;
+    box-shadow: 0px 1px 9px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.titleinfo{
+    margin: 0 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #797979, 0px 3px 0px #696969, 0px 5px 6px #666;
+}
+.maptype{
+    display: inline;
+    float: right;
+}
+
+.broption{
+    line-height: 50px;
+    padding: 15px;
+    border-radius: 0px;
+    border-left: 1px solid #009EFF;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.broption:hover{
+    background-color: #007ac5;
+}
+
+.map-content{
+    background-color: #eee;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 0px;
+}
+
+#brmap{
+    background-color: #ddd;
+    height: 100%;    
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+}
+
+#br-layerlist{
+    background-color: #fff;    
+    height: 100%;
+    z-index: 9;
+    box-shadow: -1px 5px 9px rgba(0,0,0,0.2);
+}
+
+.listtitle{
+    text-align: center;
+    padding: 10px 5px;
+    background: #f1f1f1;
+}
+.layer-list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-group-item{
+    border-left: 0px;
+    cursor: pointer;
+}
+
+.br-banner{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 10;
+    color: #fafafa;
+        text-shadow: 0px 1px 0px #999, 0px 2px 0px #797979, 0px 3px 0px #696969, 0px 5px 6px #666;
+}
+
+#baselayers{
+    position: absolute;
+    z-index: 15;
+    left: 50px;
+    top: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-clip: padding-box;
+    border-radius: 5px;
+}
